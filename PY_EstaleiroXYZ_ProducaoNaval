@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+# Dados de exemplo (produção anual de navios)
+anos = [2019, 2020, 2021, 2022, 2023]
+producao_navios = [5, 7, 10, 8, 12]
+
+# Criar o gráfico de barras
+plt.figure(figsize=(10, 6))
+plt.bar(anos, producao_navios, color='navy')
+plt.xlabel('Ano')
+plt.ylabel('Número de Navios Produzidos')
+plt.title('Produção Anual de Navios do Estaleiro Naval XYZ')
+plt.grid(True)
+
+# Mostrar o gráfico
+plt.show()
